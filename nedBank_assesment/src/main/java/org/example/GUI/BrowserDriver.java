@@ -1,4 +1,4 @@
-package org.example;
+package org.example.GUI;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import lombok.Getter;

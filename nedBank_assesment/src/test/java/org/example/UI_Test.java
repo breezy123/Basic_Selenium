@@ -1,9 +1,10 @@
 package org.example;
 
+import org.example.GUI.BrowserDriver;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
-import static org.example.UIElements.*;
+import static org.example.GUI.UIElements.*;
 
 public class UI_Test {
 
