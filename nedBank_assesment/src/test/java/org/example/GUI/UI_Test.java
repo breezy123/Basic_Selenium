@@ -1,6 +1,5 @@
-package org.example;
+package org.example.GUI;
 
-import org.example.GUI.BrowserDriver;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
