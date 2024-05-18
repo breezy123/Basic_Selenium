@@ -1,0 +1,1 @@
+{"uuid":"8c91fafe-5f07-4a59-859f-8a2ce4d4691c","name":"org.example.GUI.Pizza_Shop_test","children":["5e7a7b96-0c2c-42f3-b167-45738198a056"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1716030381556,"stop":1716030381574}],"afters":[],"start":1716030381452,"stop":1716030415044}

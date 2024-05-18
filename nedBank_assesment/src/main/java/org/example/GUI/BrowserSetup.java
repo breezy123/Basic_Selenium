@@ -1,28 +1,32 @@
 package org.example.GUI;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import lombok.Getter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 import java.time.Duration;
 
-@Getter
-public class BrowserDriver {
+public class BrowserSetup {
+
     WebDriver driver;
 
-    public BrowserDriver(WebDriver driver) {
-        this.driver = driver;
+    BrowserSetup(WebDriver driver){
+        this.driver=driver;
     }
 
-    public void setupBrowser() {
+    void lunchBrowser(){
 
-        driver = new ChromeDriver();
+        driver = new EdgeDriver();
+
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
     }
 
-    public void closeBrowser() {
+    WebDriver getDriver(){
+        return this.driver;
+    }
+    void quiteBrowser(){
         driver.quit();
     }
 }

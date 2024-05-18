@@ -4,22 +4,21 @@ import org.openqa.selenium.By;
 
 public class UIElements {
 
-    public static String url = "https://www.saucedemo.com/";
+    public static String url="https://eqaroloflow.co.za/wp/my-account/";
+    public static By username = By.id("username");
+    public static By password = By.id("password");
+    public static By order = By.xpath("//a[normalize-space()='Orders']");
+    public static By wine_1948 = By.xpath("//a[normalize-space()='#1948']");
 
-    public static  final By username = By.id("user-name");
-    public static final By password = By.id("password");
-    public static final By menu = By.xpath("//button[@id='react-burger-menu-btn']");
-    public static final By logOut = By.id("logout_sidebar_link");
-    public static final By sauce_labs_backPack = By.id("add-to-cart-sauce-labs-backpack");
-    public static final By shopping_cart_quantity = By.xpath("//span[@class='shopping_cart_badge']");
-    public static final By checkout = By.id("checkout");
-    public static final By firstName = By.id("first-name");
-    public static final By lastName = By.id("last-name");
-    public static final By postalCode = By.id("postal-code");
-    public static final By continueBtn = By.id("continue");
-    public static final By finish = By.id("finish");
-    public static final By backHome = By.id("back-to-products");
-    public static final By sauce_labs_bike_light = By.id("add-to-cart-sauce-labs-bike-light");
-    public static final By sauce_labs_bolt_tShirt = By.id("add-to-cart-sauce-labs-bolt-t-shirt");
-    public static final By sauce_labs_fleece_jacket = By.id("add-to-cart-sauce-labs-fleece-jacket");
+    public static By shiraz = By.xpath("//a[normalize-space()='Thelma Shiraz 2017']");
+
+    public static By addCart = By.xpath("//button[normalize-space()='Add to cart']");
+    public static By checkOut = By.xpath("//a[normalize-space()='Proceed to checkout']");
+    public static By placeOrder = By.xpath("//button[@id='place_order']");
+
+    //a[normalize-space()='Proceed to checkout']
+    //button[normalize-space()='Add to cart']
+
+
+
 }
